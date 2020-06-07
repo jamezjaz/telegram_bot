@@ -15,7 +15,11 @@ class Bot
         when '/stop'
 
           my_bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}, I hope to see you soon", date: message.date)
-        
+
+          when '/inspire'
+          quotes = Inspire.new
+          quote = quotes.select_randomly
+          my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['joke']}", date: message.date)
         end
       end
     end

@@ -1,3 +1,5 @@
+# rubocop: disable Layout/LineLength, Style/RedundantInterpolation
+
 require 'telegram/bot'
 require_relative 'inspire.rb'
 
@@ -16,12 +18,14 @@ class Bot
 
           my_bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}, I hope to see you soon", date: message.date)
 
-          when '/inspire'
+        when '/inspire'
           quotes = Inspire.new
           quote = quotes.select_randomly
-          my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['joke']}", date: message.date)
+          my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['text']}", date: message.date)
         end
       end
     end
   end
 end
+
+# rubocop: enable Layout/LineLength, Style/RedundantInterpolation

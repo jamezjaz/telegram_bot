@@ -18,4 +18,9 @@ class Inspire
         response = JSON. parse(response)
         response
     end
+
+    def select_randomly
+        @quotes = @quotes.sample
+        @quotes
+    end
 end

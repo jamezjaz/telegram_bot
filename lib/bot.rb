@@ -3,6 +3,13 @@
 require 'telegram/bot'
 require_relative 'inspire.rb'
 
+=begin
+LOGIC
+Create a Bot class that will host the telegram bot API
+Create an Inspire class in the inspire.rb file, it will make a request to an API endpoint
+Use bot.api to send a message to the chat_id; chat_id is the target id or the username of the user
+=end
+
 class Bot
   def initialize
     token = '1180933661:AAFuUcHVE8NacW2V7fuOCA7cAAI_0n_j6ug'
@@ -21,7 +28,7 @@ class Bot
         when '/inspire'
           quotes = Inspire.new
           quote = quotes.select_randomly
-          my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['text']}", date: message.date)
+          my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['en']}", date: message.date)
         end
       end
     end

@@ -12,14 +12,14 @@ class Inspire
 
   # Mkakes requests to an endpoint that returns motivational messages as JSON response
   def quotes_request
-    url = 'https://type.fit/api/quotes'
+    url = 'https://programming-quotes-api.herokuapp.com/quotes/lang/en'
     uri = URI(url)
     response = Net::HTTP.get(uri)
     response = JSON. parse(response)
     response
   end
 
-  # Selects quotes/messages randomly
+  # Selects quotes/0messages randomly
   def select_randomly
     @quotes = @quotes.sample
     @quotes

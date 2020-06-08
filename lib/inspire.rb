@@ -10,7 +10,6 @@ class Inspire
     @quotes = message_request
   end
 
-  # Mkakes requests to an endpoint that returns motivational messages as JSON response
   def message_request
     url = 'https://programming-quotes-api.herokuapp.com/quotes/lang/en'
     uri = URI(url)
@@ -19,7 +18,6 @@ class Inspire
     response
   end
 
-  # Selects quotes/0messages randomly
   def select_randomly
     @quotes = @quotes.sample
     @quotes

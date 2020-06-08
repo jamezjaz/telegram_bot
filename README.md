@@ -28,13 +28,14 @@
     ``` 
 - Navigate to your telegram account and search for :
   ```
-   @Jamezjaz_Bot
+   @JamezjazBot
 
    ``` 
 - Then press the /START button and follow the steps given
 
 ## Preview
-  ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/57812000/83983248-50d66000-a8f2-11ea-85aa-51ecc54a8715.gif)
+  ![Bot-Preview](https://user-images.githubusercontent.com/57812000/84085443-390ee280-a9ab-11ea-8004-bb50e64ed963.png)
+
 
 
 ## Author

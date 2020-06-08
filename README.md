@@ -9,7 +9,8 @@
 - Ruby 2.6.5
 - VS Code
 - Telegram Bot API
-- Type fit Quotes API
+- Herokuapp Quotes API
+- Appspot Quotes API
 
 ## How To Install
 

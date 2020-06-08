@@ -1,6 +1,6 @@
 # Telegram_Bot
 
-> This is a telegram bot that inspirational quotes to users on their telegram accounts. It can be trigered on the command line/terminal.
+> This is a telegram bot that sends inspirational quotes to users on their telegram accounts. It can be triggered on the command line/terminal.
 
 > This is a Capstone Project of the [Microverse](https://www.microverse.org/) curriculum.
 
@@ -14,7 +14,7 @@
 ## How To Install
 
 - Ensure Ruby is installed in your local machine. You can check out the installation process [here](https://www.ruby-lang.org/en/documentation/installation/)
-- Clone this [repo](git@github.com:jamezjaz/telegram_bot.git). If you have Git installed in your local machine, you can clone it using **git clone** command.
+- Clone this [repo](https://github.com/jamezjaz/telegram_bot). If you have Git installed in your local machine, you can clone it using **git clone** command.
 - For Windows users, open Command Prompt and run:
     ```console
     C:\>cd TElEGRAM_BOT folder

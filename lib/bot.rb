@@ -2,6 +2,7 @@
 
 require 'telegram/bot'
 require_relative 'inspire.rb'
+require_relative 'bible.rb'
 
 =begin
 LOGIC
@@ -19,7 +20,7 @@ class Bot
         case message.text
         when '/start'
 
-          my_bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name} , welcome to Telegram. I am a bot and I was created by James C. Odufu. I am here to keep you inspired and entertained. Use  /start to start the bot, /inspire to get amazing inspirational quotes or /stop to end the bot")
+          my_bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name} , welcome to Telegram. I am a bot and I was created by James C. Odufu. I am here to keep you inspired and entertained. Use  /start to start the bot, /inspire to get amazing inspirational quotes, /joke to get hilarous jokes or /stop to end the bot")
 
         when '/stop'
 
@@ -29,6 +30,12 @@ class Bot
           quotes = Inspire.new
           quote = quotes.select_randomly
           my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['en']}", date: message.date)
+
+        when '/joke'
+          quotes = Joke.new
+          quote = quotes.quotes_request
+          my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['setup']}", date: message.date)
+          my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['punchline']}", date: message.date)
         end
       end
     end

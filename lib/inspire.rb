@@ -19,7 +19,7 @@ class Inspire
     response
   end
 
-  #Selects quotes/messages randomly
+  # Selects quotes/messages randomly
   def select_randomly
     @quotes = @quotes.sample
     @quotes

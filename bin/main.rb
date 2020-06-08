@@ -7,7 +7,7 @@ puts 'Hello!,   Welcome to Inspirational Telegram bot'
 puts 'This bot inspires and entertains you by giving you some inspirational quotes'
 
 puts '----------------------------------------------'
-puts 'Now, navigate to your telegram account, search for ComicBot and punch /start to start'
+puts 'Now, navigate to your telegram account, search for @Jamezjaz_Bot and punch /start to start'
 puts '...loading the bot is now online... ctrl + c to stop the bot'
 
 Bot.new

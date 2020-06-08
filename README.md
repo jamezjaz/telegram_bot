@@ -1,6 +1,6 @@
 # Telegram_Bot
 
-> This is a telegram bot that sends inspirational quotes to users on their telegram accounts. It can be triggered on the command line/terminal.
+> This is a telegram bot that sends inspirational quotes and hilarious jokes to users on their telegram accounts. It can be triggered on the command line/terminal.
 
 > This is a Capstone Project of the [Microverse](https://www.microverse.org/) curriculum.
 

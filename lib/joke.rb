@@ -7,11 +7,11 @@ class Joke
   @quotes = nil
 
   def initialize
-    @quotes = quotes_request
+    @quotes = message_request
   end
 
   # Mkakes requests to an endpoint that returns motivational messages as JSON response
-  def quotes_request
+  def message_request
     url = 'https://official-joke-api.appspot.com/random_joke'
     uri = URI(url)
     response = Net::HTTP.get(uri)

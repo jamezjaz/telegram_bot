@@ -33,7 +33,7 @@ class Bot
 
         when '/joke'
           quotes = Joke.new
-          quote = quotes.quotes_request
+          quote = quotes.message_request
           my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['setup']}", date: message.date)
           my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['punchline']}", date: message.date)
         end

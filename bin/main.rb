@@ -1,5 +1,6 @@
 require_relative '../lib/bot.rb'
 require_relative '../lib/inspire.rb'
+require_relative '../lib/joke.rb'
 
 # All puts
 puts 'Hello!,   Welcome to Inspirational Telegram bot'

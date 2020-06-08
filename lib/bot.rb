@@ -2,7 +2,7 @@
 
 require 'telegram/bot'
 require_relative 'inspire.rb'
-require_relative 'bible.rb'
+require_relative 'joke.rb'
 
 =begin
 LOGIC

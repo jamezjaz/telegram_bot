@@ -34,8 +34,13 @@
 - Then press the /START button and follow the steps given
 
 ## Preview
+
   ![Bot-Preview](https://user-images.githubusercontent.com/57812000/84085443-390ee280-a9ab-11ea-8004-bb50e64ed963.png)
 
+## Video Presentation
+
+  [Video Presentation](https://www.loom.com/share/6171b7750cdb4843b610246b7c99379d)
+  [![Bot Video](https://user-images.githubusercontent.com/57812000/84126289-55d70480-aa03-11ea-8cd9-ec7ff0eab5f6.png)](https://www.loom.com/share/6171b7750cdb4843b610246b7c99379d)
 
 
 ## Author

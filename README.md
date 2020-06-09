@@ -61,6 +61,12 @@
 
    ```console
    rspec
+   ```
+
+## How To Run GHA
+
+When you open your first pull request you should see the result of the GitHub Actions:
+Click on the Details link to see the full output and the errors that need to be fixed:
 
 ## Author
 

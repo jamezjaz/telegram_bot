@@ -1,4 +1,4 @@
-# rubocop: disable Layout/LineLength, Style/RedundantInterpolation
+# rubocop: disable Layout/LineLength, Style/RedundantInterpolation, Metrics/MethodLength
 
 require 'telegram/bot'
 require 'dotenv'
@@ -39,4 +39,4 @@ class Bot
   end
 end
 
-# rubocop: enable Layout/LineLength, Style/RedundantInterpolation
+# rubocop: enable Layout/LineLength, Style/RedundantInterpolation, Metrics/MethodLength

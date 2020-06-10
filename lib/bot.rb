@@ -8,7 +8,7 @@ require_relative 'joke.rb'
 
 class Bot
   def initialize
-    token  = ENV['TOKEN']
+    token = ENV['TOKEN']
 
     Telegram::Bot::Client.run(token) do |my_bot|
       my_bot.listen do |message|

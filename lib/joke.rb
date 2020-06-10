@@ -2,9 +2,8 @@ require 'telegram/bot'
 require 'net/http'
 require 'json'
 require_relative 'bot.rb'
-require File.expand_path('inspire.rb', __dir__)
 
-class Joke < Inspire
+class Joke
   def message_request
     url = 'https://official-joke-api.appspot.com/random_joke'
     uri = URI(url)

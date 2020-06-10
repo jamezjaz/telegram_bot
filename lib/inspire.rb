@@ -4,15 +4,14 @@ require 'json'
 require_relative 'bot.rb'
 
 class Inspire
-  @quotes = nil
+  attr_reader :quotes
 
   def initialize
     @quotes = message_request
   end
 
   def select_randomly
-    @quotes = @quotes.sample
-    @quotes
+    @quotes.sample
   end
 
   private

@@ -24,7 +24,7 @@ class Bot
         when '/inspire'
           quotes = Inspire.new
           quote = quotes.select_randomly
-          my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['en']}", date: message.date)
+          my_bot.api.send_message(chat_id: message.chat.id, text: "#{quote['quote']}", date: message.date)
 
         when '/joke'
           quotes = Joke.new

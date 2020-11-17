@@ -42,6 +42,10 @@
 
   ![Bot-Preview](https://user-images.githubusercontent.com/57812000/84085443-390ee280-a9ab-11ea-8004-bb50e64ed963.png)
 
+## Live Demo
+
+Interact with the bot live [here](https://web.telegram.org/#/im?p=@JamezjazBot)
+
 ## Video Presentation
 
   [Video Presentation](https://www.loom.com/share/6171b7750cdb4843b610246b7c99379d)

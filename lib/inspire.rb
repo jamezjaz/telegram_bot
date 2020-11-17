@@ -17,7 +17,7 @@ class Inspire
   private
 
   def message_request
-    url = 'https://programming-quotes-api.herokuapp.com/quotes/lang/en'
+    url = 'https://philosophy-quotes-api.glitch.me/quotes'
     uri = URI(url)
     response = Net::HTTP.get(uri)
     response = JSON.parse(response)
